@@ -1,0 +1,8 @@
+[package]
+name = "Weak_Law"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.46.0"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "070522965c2bd18b94940fba6bee87f25ccc3017"}
